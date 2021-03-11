@@ -4,9 +4,9 @@ const FILES_TO_CACHE = [
   "/index.js",
   "/index.html",
   "/styles.css",
-  "./icons/icon-512x512.png",
-  "./dist/manifest.cb07565199e0b7089eab22191a2cc676.json",
-  "./dist/bundle.js",
+  "/icons/icon-512x512.png",
+  "dist/manifest.cb07565199e0b7089eab22191a2cc676.json",
+  "/dist/bundle.js",
   "https://cdn.jsdelivr.net/npm/chart.js@2.8.0",
   "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
 ];
