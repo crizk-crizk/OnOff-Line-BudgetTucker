@@ -4,8 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "build": "webpack",
+    "seed": "node seeder/seed.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "nodemon server.js --watch",
     "lite-server": "lite-server"
   },
   "repository": {
@@ -19,10 +21,20 @@
   },
   "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
   "dependencies": {
+    "babel-loader": "^8.2.2",
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "lite-server": "^2.5.3",
     "mongoose": "^5.5.15",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-pwa-manifest": "^4.3.0"
   }
 }
